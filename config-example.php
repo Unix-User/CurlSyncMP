@@ -14,7 +14,6 @@
 $url = 'https://unixlocal.tk/user/service';
 $email = 'teste2@unix.local';
 $pass = '1234';
-$installpassword = '1234';
 $blockedusers = true;
 $id = '2';
 
