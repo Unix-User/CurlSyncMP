@@ -6,6 +6,8 @@ clone o script e adicione-o em seu crontab, no terminal digite:
 # cd /var/www/html
 # git clone https://github.com/Unix-User/CurlSyncMP.git
 # crontab -e
+
+
 */10 * * * * /usr/local/bin/php /var/www/html/index.php
 </pre>
 no exemplo acima o script sera executado a cada 10 minutos.
