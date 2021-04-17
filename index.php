@@ -53,7 +53,7 @@ foreach ($allRcords as $record) {
     }
     echo ' data de corte: ' . date('Y-m-d', strtotime('+5 days', strtotime($json['expires'])));
     // Insert record
-    $sql01 = "INSERT INTO radcheck(id, username, attribute, op, value) VALUES('" . $json['id'] . "','" . $json['name'] . "','Cleartext-Password',':= ','" . $installpassword . "')";
+    $sql01 = "INSERT INTO radcheck(id, username, attribute, op, value) VALUES('" . $json['id'] . "','" . $json['name'] . "','Cleartext-Password',':= ','" . $json['install_password'] . "')";
 
 
     if (isset($json['category_id']) == true) {
